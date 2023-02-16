@@ -34,5 +34,4 @@ jobs:
         arguments: bootJar
 
     - name: Build the Docker image
-      run: pwd&&ls
-      #docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
