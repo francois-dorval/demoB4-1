@@ -46,4 +46,4 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         push: true
-        tags: user/demoB4:latest
+        tags: user/demob4:latest
