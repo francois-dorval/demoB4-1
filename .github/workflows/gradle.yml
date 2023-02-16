@@ -33,7 +33,6 @@ jobs:
       with:
         arguments: bootJar
 
-    - uses: actions/checkout@v2
     - name: Build the Docker image
       run: pwd&&ls
       #docker build . --file Dockerfile --tag my-image-name:$(date +%s)
